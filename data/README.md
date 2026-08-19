@@ -1,10 +1,5 @@
 # Data
 
-This directory is for documented, redistributable civic and legal data.
+Placeholder for future dataset documentation and data-processing work.
 
-- `raw/` contains immutable source snapshots.
-- `processed/` contains reproducible derived artifacts.
-- Never commit private user questions, secrets, personal data, or restricted datasets.
-- Every dataset must record its source URL, jurisdiction, retrieval date, license, and transformation steps.
-
-Large production datasets should live in approved object storage and be referenced by a manifest rather than committed to Git.
+Do not add sensitive, private, restricted, or unlicensed data. Data sources and storage choices will be decided during planning.

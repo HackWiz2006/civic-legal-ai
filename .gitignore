@@ -1,38 +1,26 @@
-# Environment and secrets
+# Secrets and local environment
 .env
 .env.*
 !.env.example
-*.pem
 *.key
+*.pem
 
-# Node / Next.js
+# Dependencies and virtual environments
 node_modules/
-.next/
-out/
-dist/
-coverage/
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
-
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
 .venv/
 venv/
 
-# Data artifacts (keep documentation and placeholders)
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/private/
+# Generated output and caches
+dist/
+build/
+out/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.next/
+
+# Local data and databases
 *.db
 *.sqlite
 *.sqlite3
