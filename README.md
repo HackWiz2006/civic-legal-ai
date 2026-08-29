@@ -107,55 +107,6 @@ Lexis Counsel breaks away from generic corporate blue dashboards by incorporatin
 
 ---
 
-## 📂 Repository Directory Structure
-
-```text
-civic-legal-ai/
-├── backend/
-│   ├── app/
-│   │   ├── agents/          # LangGraph state machine & multi-agent definitions
-│   │   │   └── state.py     # State schema for intake, evidence, RAG, damages, drafting & QA
-│   │   ├── api/
-│   │   │   ├── endpoints/   # FastAPI route handlers (intake, pipeline, export)
-│   │   │   │   ├── intake.py
-│   │   │   │   ├── pipeline.py
-│   │   │   │   └── export.py
-│   │   │   └── router.py    # Main API router mounting v1 routes
-│   │   ├── core/            # App configurations & environment settings
-│   │   └── main.py          # FastAPI server entry point
-│   ├── requirements.txt     # Python backend dependencies
-│   └── README.md
-├── frontend/
-│   ├── src/
-│   │   ├── app/             # Next.js 16 App Router pages & layout
-│   │   ├── components/      # Glassmorphic UI component library
-│   │   │   ├── ChatMessageCard.tsx
-│   │   │   ├── ContextPanel.tsx
-│   │   │   ├── CountdownTimer.tsx
-│   │   │   ├── DamagesCalculator.tsx
-│   │   │   ├── EmergencyBanner.tsx
-│   │   │   ├── ExhibitLedger.tsx
-│   │   │   ├── ForumComparator.tsx
-│   │   │   ├── Header.tsx
-│   │   │   ├── NextBestActionCard.tsx
-│   │   │   ├── PrecedentCard.tsx
-│   │   │   ├── ReadinessMeter.tsx
-│   │   │   └── SideNavBar.tsx
-│   │   ├── lib/             # API client services & Zustand global store
-│   │   │   ├── api.ts
-│   │   │   └── store.ts
-│   │   └── styles/          # TailwindCSS global styles
-│   ├── package.json
-│   └── README.md
-├── docs/                    # Technical & product specifications
-│   ├── PRD.md               # Product Requirements Document
-│   ├── Design.md            # Design System & UI Tokens
-│   └── TechStack.md         # Architecture & Tech Stack Spec
-└── README.md                # System documentation
-```
-
----
-
 ## 🚀 Quick Start & Local Installation Guide
 
 Follow these step-by-step instructions to download, configure, and run **Lexis Counsel (CivicLegal-AI)** locally on any Linux, macOS, or Windows machine.
@@ -310,12 +261,6 @@ Lexis Counsel is grounded in Indian statutory law:
 > **Lexis Counsel is an algorithmic procedural assistant and statutory fact-compiler designed exclusively for Party-in-Person self-representation pursuant to Section 35(1) of the Consumer Protection Act, 2019.**
 >
 > Lexis Counsel **does not** provide formal legal counsel, legal opinion, or courtroom representation. Engagement with the platform does not create an attorney-client relationship. Citizens requiring judicial representation before High Courts or the Supreme Court of India should consult a qualified Advocate-on-Record.
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
