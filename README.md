@@ -7,7 +7,6 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16.3-black.svg)](https://nextjs.org/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2.20-orange.svg)](https://langchain-ai.github.io/langgraph/)
 [![Jurisdiction](https://img.shields.io/badge/Jurisdiction-India-orange.svg)](https://e-daakhil.nic.in/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
